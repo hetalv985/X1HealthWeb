@@ -35,12 +35,18 @@ ion-scroll[scrollX] {
 }
 
 .stats {
-  width: 70%;
+  width: 75%;
   display: inline-block;
   vertical-align: top;
+  padding-top: 8px;
 }
 
 .ion-canvas {
   width: 100px;
   display: inline-block;
+}
+
+.chart {
+  width: 70%;
+  margin-top: 16px;
 }
