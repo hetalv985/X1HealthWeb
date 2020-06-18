@@ -16,12 +16,31 @@
 #container p {
   font-size: 16px;
   line-height: 22px;
-
   color: #8c8c8c;
-
   margin: 0;
 }
 
 #container a {
   text-decoration: none;
+}
+
+ion-scroll[scrollX] {
+  white-space: nowrap;
+  height: 300px;
+  overflow-x: auto;
+  .scroll-item {
+    display: inline-block;
+    width: 400px;
+  }
+}
+
+.stats {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ion-canvas {
+  width: 100px;
+  display: inline-block;
 }
