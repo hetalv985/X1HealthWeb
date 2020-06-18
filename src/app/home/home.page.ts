@@ -61,7 +61,7 @@ ngAfterViewInit() {
 
 }
 
-drawCircle(canvas: Any, angle: Float, text: String)
+drawCircle(canvas, angle, text)
 {
   let context = canvas.getContext('2d');
 
